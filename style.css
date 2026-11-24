@@ -257,8 +257,8 @@ main { animation: page-rise-in 1.5s cubic-bezier(.22,1,.36,1) both; }
 .education-list li:hover { border-color: rgba(255, 119, 113, 0.45); background: rgba(255, 255, 255, 0.06); transform: translateX(3px); }
 .education-list strong { color: var(--red-light); }
 .education-list span { color: #d4ced0; }
-.education-logo { position: relative; display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 0.5rem; color: #cfcfcf; font-size: 0.7rem; overflow: hidden; }
-.education-logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; }
+.education-logo { position: relative; display: grid; place-items: center; width: 3.5rem; height: 3.5rem; color: #cfcfcf; font-size: 0.7rem; }
+.education-logo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .education-logo img + span { display: none; }
 .image-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .gallery-card { position: relative; margin: 0; aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--line); border-radius: 0.9rem; background: linear-gradient(135deg, #260400, #8a0400); transition: transform .25s, border-color .25s, box-shadow .25s; }
